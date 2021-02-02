@@ -1,0 +1,7 @@
+file  = open("C:/Users/user/Desktop/Python/lab7/text.txt","w")
+file.write("Ishak \nKazic")
+file  = open("C:/Users/user/Desktop/Python/lab7/text.txt","r")
+print(file.read())
+file  = open("C:/Users/user/Desktop/Python/lab7/text.txt","r")
+print(file.read(3))
+file.close()
